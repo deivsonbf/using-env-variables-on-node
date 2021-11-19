@@ -15,7 +15,6 @@ app.get('/default', (req, res) => {
         enviroment: process.env.NODE_ENV,
     }
 
-
     res.send(configs)
 
 })
