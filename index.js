@@ -13,7 +13,6 @@ app.get('/default', (req, res) => {
 
     let configs = {
         enviroment: process.env.NODE_ENV,
-        server: process.env.SERVER
     }
 
 
