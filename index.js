@@ -9,14 +9,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/', defaultController);
 
-app.get('/default', (req, res) => {
-
-    let configs = {
-        enviroment: process.env.NODE_ENV,
-    }
-
-    res.send(configs)
-
-})
-
 module.exports = app;
